@@ -2,7 +2,6 @@
 'use client'
 
 import styles from '../../styles/home.module.css'
-import ImageSelectionGame from "@/components/ImageSelectionGame";
 import dynamic from 'next/dynamic';
 const ComponentaClientOnly = dynamic(() => import('@/components/ImageSelectionGame'), {
     ssr: false

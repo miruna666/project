@@ -1,25 +1,9 @@
 'use client'
-import RotatingText from "@/components/RotatingText";
-import SplashCursor from "@/components/SplashCursor";
-import TextPressure from "@/components/TextPressure";
+
 import WheelComponent from "@/components/WhellComponent";
-import Image from "next/image";
 import styles from '../../styles/home.module.css'
 import { motion } from "framer-motion";
-const segments = ["69", "Capră", "Ied", "Mama iedului", "Misionar"];
-const segColors = [
-  "#EE4040",
-  "#F0CF50",
-  "#815CD1",
-  "#3DA5E0",
-  // "#34A24F",
-  // "#F9AA1F",
-  // "#EC3F3F",
-  "#FF9000"
-];
-const onFinished = (winner) => {
-  console.log(winner);
-};
+
 export default function Home() {
 
   return (
